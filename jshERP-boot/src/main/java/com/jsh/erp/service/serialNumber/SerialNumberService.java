@@ -287,7 +287,7 @@ public class SerialNumberService {
     public int sellSerialNumber(Long materialId, String outBillNo, String snList, User user) throws Exception{
         int result=0;
         try{
-            String [] snArray=snList.split(",");
+            String [] snArray= snList==null?null: snList.split(",");
             result = serialNumberMapperEx.sellSerialNumber(materialId, outBillNo, snArray, new Date(),user==null?null:user.getId());
         }catch(Exception e){
             JshException.writeFail(logger, e);
