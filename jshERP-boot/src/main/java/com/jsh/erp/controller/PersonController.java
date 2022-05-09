@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author ji|sheng|hua 华夏erp
+ * @author ji|sheng|hua ERP系统
  */
 @RestController
 @RequestMapping(value = "/person")

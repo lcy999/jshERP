@@ -34,7 +34,7 @@ import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 import static com.jsh.erp.utils.Tools.getCenternTime;
 
 /**
- * @author ji-sheng-hua 华夏erp
+ * @author ji-sheng-hua ERP系统
  */
 @RestController
 @RequestMapping(value = "/depotItem")
